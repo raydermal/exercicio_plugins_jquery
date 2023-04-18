@@ -8,7 +8,7 @@
         placeholder: "00000-00"
     })
 
-    $('#telefone').mask('(00)00000-000', {
+    $('#telefone').mask('(00)00000-0000', {
         placeholder: "(DDD)000000-000"
     })
 
