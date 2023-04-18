@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@900&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario de Cadastro</h1>
+    </header>
+    <section>
+        <div class="container">
+            <form>
+                <h2>Preencha seus dados</h2>
+                <div class="campo">
+                    <label>Nome completo:</label>
+                    <input type="text" placeholder="digite seu nome completo" required>
+                </div>
+                <div class="campo">
+                    <label>E-mail:</label>
+                    <input type="email" placeholder="nome@" required>
+                </div>
+                <div class="campo">
+                    <label>Telefone:</label>
+                    <input type="text" id="telefone" required>
+                </div>
+                <div class="campo">
+                    <label>Cpf:</label>
+                    <input type="text" id="CPF" name="cpf">
+                </div>
+                <div class="campo">
+                    <label>endereço completo:</label>
+                    <input type="text" required>  
+                </div>
+                <div class="campo">
+                    <label>Cep:</label>
+                    <input type="text" id="cep" required>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
